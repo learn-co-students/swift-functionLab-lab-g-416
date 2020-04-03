@@ -61,12 +61,14 @@ y(name: name2)
  */
 // write your code here
 
-func z(name: String) {
-    let name = "Ruby"
+func z() {
+    var name = "Ruby"
+    print(name)
+    name = "Kelley"
     print(name)
 }
 
-z(name: name)
+z()
 
 /*:
 Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions. */
