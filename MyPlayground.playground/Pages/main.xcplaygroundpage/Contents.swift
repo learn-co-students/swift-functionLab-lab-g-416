@@ -12,7 +12,11 @@
  ### 1. Write a function called `helloWorld()` that prints "Hello, world!" to the console. Then call it to see your string printed to the playground console.
  */
 // write your code here
+func helloWorld() {
+    print("Hello, world")
+}
 
+helloWorld()
 
 
 
@@ -21,6 +25,12 @@
  */
 // write your code here
 
+func x(name: String) {
+    let name = "Jamie"
+    print("\(name)")
+}
+
+x(name: "Jamie")
 
 
 
@@ -29,7 +39,11 @@
  */
 // write your code here
 
+func y(name: String){
+    print("Hello \(name)!")
+}
 
+y(name: "Sunny")
 
 
 /*: question4
@@ -37,7 +51,9 @@
  */
 // write your code here
 
-
+let name = "Junior"
+var name2 = "Patches"
+y(name: name2)
 
 
 /*: question5
@@ -45,8 +61,12 @@
  */
 // write your code here
 
+func z(name: String) {
+    let name = "Ruby"
+    print(name)
+}
 
-
+z(name: name)
 
 /*:
 Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions. */
